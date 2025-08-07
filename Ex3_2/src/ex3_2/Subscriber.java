@@ -4,11 +4,12 @@
  */
 package ex3_2;
 
+import java.beans.*;
+
 /**
  *
  * @author punpu
  */
-import java.beans.*;
 
 public class Subscriber implements PropertyChangeListener {
     private String name;
